@@ -78,7 +78,7 @@ Use 'mkdir' to create a new directory within the current one:
 $ mkdir cms380
 ```
 
-When the command executes it doesn't print anything (this is normal behavior for Unix / Linux commands&mdash*silence is golden*), but
+When the command executes it doesn't print anything (this is normal behavior for Unix / Linux commands &mdash *silence is golden*), but
 you can verify that it succeeded by listing the contents of the directory.
 
 ```
