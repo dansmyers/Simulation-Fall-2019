@@ -32,8 +32,10 @@
 #     - Winnings are added back into your bankroll so they can be used
 #       for bets in future rounds.
 
-from random import random
+import matplotlib    # install with supo apt-get install python-matplotlib
+matplotlib.use('Agg')  # Have to do this if you're running on a remote VM
 from matplotlib import pyplot as plt
+from random import random
 
 def simulate(win_prob, max_rounds, bankroll):
 
@@ -67,19 +69,19 @@ def simulate(win_prob, max_rounds, bankroll):
     
     
 def main():
-    ''' Simulate the martingale betting strategy
+    
+    """ Simulate the martingale betting strategy.
     
         inputs: none
         outputs: none (plots results as a histogram)
-    ''' 
+    """ 
     
     # Parameters
     simulation_iterations = 1000000  # Num. simulated trials to run
     win_prob = .50  # Prob. of winning each game round
     max_rounds = 100  # Max number of rounds for one sim
-    start_bankroll = 1000  # Player's starting cash
+    start_bankroll = 100  # Player's starting cash
 
-    
     # Store results in a list
     results = []
     
@@ -91,8 +93,9 @@ def main():
     # Visualize results
     plt.figure()  # Make a new figure
     plt.hist(results, 50)  # Histogram
-    plt.show()  # Display results
+    plt.savefig('martingale_hist.pdf', bbox_inches='tight')
     
+    # plt.show() displays figure on a regular computer
     
     
 # Standard way of accessing a main method in Python
