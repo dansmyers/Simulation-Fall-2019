@@ -80,9 +80,9 @@ Finally, Scrumage supports **learning how to learn**, the **single most importan
 | Sprint       | Topic                           | Start  |   End  | Deliverable     | Outcomes |
 | -------------|---------------------------------|--------|--------|-----------------|----------|
 | 1            | Python and Monte Carlo Simulation |      |        | Programs | 1, 2, 5  |
-| 2            | Discrete Probability              |      |        | Problem set    | 2     |
-| 3            | Continuous Probability            |      |        | Queueing simulator    | 1, 2, 5    |
-| 4            | Discrete-Time Event-Driven Simulation   |    |    | Theme Park Rides    | 1, 2, 3, 5 |
+| 2            | Discrete Probability              |      |        | Problem Set    | 2     |
+| 3            | Continuous Probability            |      |        | Queueing Simulator    | 1, 2, 5    |
+| 4            | Discrete-Time Event-Driven Simulation   |    |    | Theme Park    | 1, 2, 3, 5 |
 | 5            | Markov Chains                     |     |    | Twitter Bot        | 1, 4 |
 | 6            | Queueing Models                   |     |    | Capacity Planning | 1, 2, 3, 4, 5 |
 | 7            | Final Project               |   |    | Campus Parking | 1, 2, 3, 4, 5 |
