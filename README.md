@@ -85,7 +85,7 @@ Finally, Scrumage supports **learning how to learn**, the **single most importan
 | 4            | Discrete-Time Event-Driven Simulation   |    |    | Theme Park    | 1, 2, 3, 5 |
 | 5            | Markov Chains                     |     |    | Twitter Bot        | 1, 4 |
 | 6            | Queueing Models                   |     |    | Capacity Planning | 1, 2, 3, 4, 5 |
-| 7            | Final Project               |   |    | Campus Parking | 1, 2, 3, 4, 5 |
+| 7            | Final Project               |   |    | Simulate Campus | 1, 2, 3, 4, 5 |
 
 ### Schedule Guidelines
 
