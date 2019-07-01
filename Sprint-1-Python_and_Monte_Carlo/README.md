@@ -6,7 +6,7 @@
 
 At the end of this sprint, you will be able to
 
-- Write small to moderately-sized programs in Python using standard programming features: variables, conditionals, loops, etc.
+- Write small to moderately-sized programs in Python using standard programming features: variables, conditionals, loops, functions, etc.
 
 - Use a Python development environment.
 
