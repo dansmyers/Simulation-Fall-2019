@@ -4,6 +4,8 @@
 #
 # https://academo.org/demos/estimating-pi-monte-carlo/
 
+# You can also import a single function directly
+# Removes the need to call it with the module name
 from random import random
         
 def main():
@@ -15,7 +17,7 @@ def main():
     """ 
     
     # Parameters
-    num_points = 100000000
+    num_points = 1000
     num_in_circle = 0
     
     for point in range(num_points):
