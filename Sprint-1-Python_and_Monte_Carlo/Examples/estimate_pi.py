@@ -31,7 +31,8 @@ def main():
         # a hit
         if distance < 1:
             num_in_circle += 1
-            
+       
+    # The fraction of points that hit inside the circle
     fraction = float(num_in_circle) / float(num_points)
     
     # pi is approximately fraction * 4
