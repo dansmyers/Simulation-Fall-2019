@@ -23,6 +23,8 @@ def simulate():
         return False
         
 def main():
+    
+    """ Run several simulated passe-dix games and report the fraction of successess """
 
     successes = 0
     num_trials = 1000
@@ -31,6 +33,7 @@ def main():
         if simulate():
             successes += 1
             
+    # Use float() to cast to a non-integer value
     print(successes / float(num_trials))
     
 if __name__ == '__main__':
