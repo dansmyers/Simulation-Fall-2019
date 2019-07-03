@@ -1,6 +1,7 @@
 # Estimate the odds of winning the passe-dix gambling game.
 
-from random import random
+# Gain access to the random module
+import random
 
 def simulate():
 
