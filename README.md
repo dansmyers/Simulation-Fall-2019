@@ -292,7 +292,7 @@ least	2	½	hours	of	outside	work	for	every	hour	of	scheduled	class	time. In	this
 course,	the	additional	outside-of-class	expectations	are	self-directed learning and
 substantial team-based projects.
 
-### Recording	DeviceUse
+### Recording	Device Use
 In	order	to	protect	the	integrity	of	the	classroom	experience,	the	use	of	recording	
 devices	is	limited	to	either	the	expressed	permission	of	the	faculty	member	or	with	
 proper	documentation	from	the	Office	of	Accessibility	Services. Information	about	
