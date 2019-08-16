@@ -22,9 +22,7 @@ I sometimes need to modify my schedule to account for meetings and other campus 
 
 ## Official Course Description
 
-**CMS 380 Simulation and Stochastic Modeling**: Explores the use of probability theory and statistical methods in the development of computer simulations used to study/model real-world phenomenon. Topics include an overview of probability theory, a survey of common statistical distributions, random number generation, and common techniques for creating models that incorporate randomness, such as queueing networks and Markov chains. Prerequisite: CMS 121.
-
-## What Will We Learn in This Class?
+**CMS 380 Simulation and Stochastic Modeling**: Explores the use of probability theory and statistical methods in the development of computer simulations used to study/model real-world phenomenon. Topics include an overview of probability theory, a survey of common statistical distributions, random number generation, and common techniques for creating models that incorporate randomness, such as queueing networks and Markov chains. Prerequisite: CMS 170.
 
 ## Learning Outcomes
 
@@ -60,8 +58,6 @@ Here are the  main features of Scrumage:
 
 6. You'll complete a brief reflection at the end of each sprint, which will help you understand your own learning process and make improvements before the next sprint.
 
-Take a look at the `Scrumage.md` document for a detailed overview of the process.
-
 ### That Sounds Hard. Why Are We Doing This?
 Scrumage is based on **student choice**, **flexibility**, and **reflection**.
 
@@ -79,13 +75,13 @@ Finally, Scrumage supports **learning how to learn**, the **single most importan
 
 | Sprint       | Topic                           | Start  |   End  | Deliverable     | Outcomes |
 | -------------|---------------------------------|--------|--------|-----------------|----------|
-| 1            | Python and Monte Carlo Simulation |      |        | Programs | 1, 2, 5  |
-| 2            | Discrete Probability              |      |        | Problem Set    | 2     |
-| 3            | Continuous Probability            |      |        | Queueing Simulator    | 1, 2, 5    |
-| 4            | Discrete-Time Event-Driven Simulation   |    |    | Theme Park    | 1, 2, 3, 5 |
-| 5            | Markov Chains                     |     |    | Twitter Bot        | 1, 4 |
-| 6            | Queueing Models                   |     |    | Capacity Planning | 1, 2, 3, 4, 5 |
-| 7            | Final Project               |   |    | Simulate Campus | 1, 2, 3, 4, 5 |
+| 1            | Python and Monte Carlo Simulation | 8/26     | 9/9       | Programs | 1, 2, 5  |
+| 2            | Discrete Probability              |  9/9    |  9/23      | Problem Set    | 2     |
+| 3            | Continuous Probability            |   9/23   |  10/7      | Queueing Simulator    | 1, 2, 5    |
+| 4            | Discrete-Time Event-Driven Simulation   | 10/7   |  10/21  | Theme Park    | 1, 2, 3, 5 |
+| 5            | Markov Chains                     |   10/21  | 11/4   | Twitter Bot        | 1, 4 |
+| 6            | Queueing Models                   |   11/4  |  11/18  | Capacity Planning | 1, 2, 3, 4, 5 |
+| 7            | Final Project               |  11/18 |  12/6  | Simulate Campus | 1, 2, 3, 4, 5 |
 
 ### Schedule Guidelines
 
@@ -93,13 +89,13 @@ You **must** be in class on the ending day of each sprint to complete the indivi
 
 ### Other Important Dates
 
-- First day of class: 
-- Last day of class: 
-- Labor Day:
-- Fall Break:
-- Dr. Myers at IARSLCE:
-- Last day to drop the class: ????????
-- Last day to withdraw without penalty: ????????
+- First day of class: August 26
+- Last day of class: December 6
+- Labor Day: September 2
+- Fall Break: October 14 (no class, occurs during Sprint 4)
+- Dr. Myers at IARSLCE: October 23
+- Last day to drop the class: September 6
+- Last day to withdraw without penalty: November 8
 
 ## The All-Important Grading Section
 
@@ -199,9 +195,9 @@ You may feel uncomfortable about the two-level grading scale. This will pass.
 
 3. Each project will have a spec that clearly explains the requirements for satisfactory work. You can also ask me (through the expert request form) for an evaluation of your work-in-progress.
 
-4. Again, industry doesn't give partial credit. If you're asked to code a feature or prepare a presentation, you're ultimately going to be evaluated on a pass / fail basis.
+4. Again, industry doesn't give partial credit. If you're asked to code a feature or prepare a presentation, you ultimately either perform at a satisfactory level or you don't.
 
-5. There are six ways to increase your grade. You only need three of them to move from the satisfactory B to an A.
+5. There are at least four ways to increase your grade. You only need three of them to move from the satisfactory B to an A.
 
 ## Course Policies
 
@@ -238,3 +234,86 @@ Material submitted electronically should contain the pledge; submission implies 
 In the context of this class, my interpretation of the Honor Code pledge is that the work you submit for every assignment shall be your own original creation. This means that any item you submit must be written by you and you alone, or in an assigned group project by your group alone. Copying a complete solution from fellow class members, previous class members, books, or the Internet is a violation of this policy and will constitute academic misconduct.
 
 ## Official Syllabus Statements
+
+### Accessibility Services
+Rollins	College	is	committed	to	equal	access	and	inclusion	for	all	students,	faculty	
+and	staff.	 The	Rehabilitation	Act	of	1973	and	the	Americans	with	Disabilities	Act	of	
+1990	create	a	foundation	of	legal	obligations	to	provide	an	accessible	educational	
+environment	that	does	not	discriminate	against	persons	with	disabilities.	It	is	the	
+spirit	of	these	laws	that guides	the	college	toward	expanding	access	in	all	courses	
+and	programs,	utilizing	innovative	instructional	design,	and	identifying	and	
+removing	barriers	whenever	possible.
+
+If	you	are	a	person	with	a	disability	and	anticipate	needing	any	type	of	academic	
+accommodations	in	order	to	fully	participate	in	your	classes,	please	contact	the	
+Office	of	Accessibility	Services,	located	on	the	first	floor	of	the	Olin	Library,	as	soon	
+as	possible. You	are	encouraged	to	schedule	a	Welcome	Meeting	by	filling	out	
+the “First	Time	Users” form	on	the	website: https://www.rollins.edu/accessibilityservices and/or	reach	out	by	phone	or	email: 407-975-6463 or Access@Rollins.edu.
+
+All	test-taking	accommodations	requested	for	this	course	must	first	be	approved	
+through	the	Office	of	Accessibility	Services (OAS)	and	scheduled	online	through	
+Accommodate at	least	72	hours	before	the	exam.	Official	accommodation	letters	
+must	be	received	by	and	discussed	with	the	faculty	in	advance.	 There	will	be	no	
+exceptions	given	unless	previously	approved	by	the	OAS with	documentation	of	the	
+emergency	situation.	We	highly	recommend	making	all	testing	accommodations	at	
+the	beginning	of	the	semester.	OAS staff	are	available	to	assist	with	this	process.
+
+### Citation	Expectations
+As	per	the	Academic	Honor	Code,	plagiarism	is	defined	as	“Offering the words, facts,
+or ideas of another person as your own in any academic exercise.” In	order	to	avoid	
+plagiarism,	all	students	are	expected	to	use	proper	citation	norms.	For	our	course,	
+all	assignments	will	use	[faculty	choice	- MLA,	Chicago,	APA,	etc]	citation	style.	
+
+### Absences	– Religious	Holidays	and/or	Campus	Business
+The	professor	will	accommodate	a	reasonable	number	of	excused	absences	for	
+religious	holidays	and	official	off-campus	college	business	such	as	academic	
+conference	presentations	and	athletic	competitions.	However,	per	the	College’s	
+policy	on	excused	absences	
+(http://www.rollins.edu/catalogue/academic_regulations.html#class-attendance),	
+students	must	discuss	with	the	professor	the	dates	of	the	anticipated	absences	no	
+later	than	the	last	day	of	the	drop	period.	Students	must	present	to	their	professor	
+written	evidence	of	the	anticipated	absences	and	discuss	with	him/her	how	and	
+when	make-up	work	should	be	completed	prior	to	missing	the	class.	Students	
+should	not	expect	to	receive	allowance	for	excused	absences	if	they	do	not	meet	
+with	the	professor	beforehand	and	clarify	the	dates	as	necessary.	Absences	will	be	
+addressed	by	the	faculty	member	in	accordance	with	his/her	attendance	policy.	The	
+professor	retains	the	right	to	determine	what	would	be	considered	to	be	a	
+reasonable	number	of	absences	(excused	or	otherwise)	for	the	course.	A	student	
+will	not	fail	a	course	because	the	number	of	religious	observances	and/or	college	
+business	absences	exceed	the	number	of	absences	allowed,	except	if	excessive	
+absences	make	it	impossible	to	fulfill	the	expectations	of	the	course.	The	student’s	
+class	participation	grade	in	the	course,	though,	may	still	be	affected.
+
+### Credit	Hour	Statement	for	Rollins	Courses
+This	course	is	a	four-credit-hour	course	that	meets	three	hours	per	week.	The	value	
+of four	credit	hours	results,	in	part,	from	work	expected	of	enrolled	students	both	
+inside	and	outside	the	classroom. Rollins	faculty	require	that	students	average	at	
+least	2	½	hours	of	outside	work	for	every	hour	of	scheduled	class	time. In	this	
+course,	the	additional	outside-of-class	expectations	are	self-directed learning and
+substantial team-based projects.
+
+### Recording	DeviceUse
+In	order	to	protect	the	integrity	of	the	classroom	experience,	the	use	of	recording	
+devices	is	limited	to	either	the	expressed	permission	of	the	faculty	member	or	with	
+proper	documentation	from	the	Office	of	Accessibility	Services. Information	about	
+accommodations	through	Accessibility	Services	can	be	found	at	
+http://www.rollins.edu/accessibility-services/.	Recording	without	the	proper	
+authorization	is	considered	a	violation	of	the	Rollins	Code of	Community	Standards.
+
+### Title	IX	Statement
+Rollins	College	is	committed	to	making	its	campus	a	safe	place	for	students.	If	you	
+tell	any	of	your	faculty	about	sexual	misconduct	involving	members	of	the	campus	
+community,	your	professors are	required	to	report	this	information	to	the	Title	IX	
+Coordinator.	Your	faculty	member	can	help	connect	you	with	the	Title	IX	
+Coordinator,	(TitleIX@rollins.edu or	407.691.1773).	You	will	be	provided with	
+information,	resources	and	support.	If	you	would	prefer	to	speak	to	someone	on	
+campus	confidentially,	please	call	the	Wellness	Center	at	407.628.6340.	They	are	not	
+required	to	report	any	information	you	share	with	the	Title	IX	Coordinator.
+Misconduct	under	Title	IX	includes	gender-based	discrimination	and	harassment,	
+sexual	harassment,	sexual	violence	including	fondling	and	assault,	sexual	
+coercion/force,	sexual-based	communication,	sexual	exploitation,	interpersonal	
+violence	including	dating	and	domestic	violence,	stalking,	complicity	and	retaliation.	
+Everyone	is	protected	under	the	following	protected	statuses:	sex	(including	
+pregnancy),	gender,	gender	identity	(including	transgender	status),	gender	
+expression,	and	sexual	orientation.	For	information,	
+visit https://www.rollins.edu/sexual-misconduct/
