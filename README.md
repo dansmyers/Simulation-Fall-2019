@@ -13,9 +13,8 @@ dmyers@rollins.edu
 Office hours for Fall 2019:
 
 - Monday 4:00 - 5:00
-- Tuesday 2:00 - 3:00
+- Tuesday 2:00 - 4:00
 - Wednesday 4:00 - 5:00
-- Thursday 2:00 - 3:00
 
 Meeting with students is my highest priority during these times. Feel free to come by **even if you don't have a question or a problem**. Please e-mail me if you'd like to schedule an appointment for a different time.
 
