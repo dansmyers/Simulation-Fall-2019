@@ -75,13 +75,14 @@ Finally, Scrumage supports **learning how to learn**, the **single most importan
 
 | Sprint       | Topic                           | Start  |   End  | Deliverable     | Outcomes |
 | -------------|---------------------------------|--------|--------|-----------------|----------|
-| 1            | Python and Monte Carlo Simulation | 8/26     | 9/9       | Programs | 1, 2, 5  |
-| 2            | Discrete Probability              |  9/9    |  9/23      | Problem Set    | 2     |
-| 3            | Continuous Probability            |   9/23   |  10/7      | Queueing Simulator    | 1, 2, 5    |
-| 4            | Discrete-Time Event-Driven Simulation   | 10/7   |  10/21  | Theme Park    | 1, 2, 3, 5 |
-| 5            | Markov Chains                     |   10/21  | 11/4   | Twitter Bot        | 1, 4 |
-| 6            | Queueing Models                   |   11/4  |  11/18  | Capacity Planning | 1, 2, 3, 4, 5 |
-| 7            | Final Project               |  11/18 |  12/6  | Simulate Campus | 1, 2, 3, 4, 5 |
+| 1            | Python and Monte Carlo Simulation | 8/26     | 9/16       | Programs | 1, 2, 5  |
+| 2            | Discrete Probability              |  9/16    |  9/30      | Problem Set    | 2     |
+| 3            | Continuous Probability            |   9/30   |  10/16      | Queueing Simulator    | 1, 2, 5    |
+| 4            | Discrete-Time Event-Driven Simulation   | 10/16   |  10/30  | Theme Park    | 1, 2, 3, 5 |
+| 5            | Markov Chains                     |   10/30  | 11/13   | Twitter Bot        | 1, 4 |
+| 6            | Queueing Models                   |   11/13  |  12/6  | Capacity Planning | 1, 2, 3, 4, 5 |
+| ~7~            | ~Final Project~               |  ~11/18~ |  ~12/6~  | ~Simulate Campus~ | ~1, 2, 3, 4, 5~ |
+
 
 ### Schedule Guidelines
 
