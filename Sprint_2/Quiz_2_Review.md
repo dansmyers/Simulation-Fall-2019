@@ -34,7 +34,7 @@ The basic application of the Poisson distribution is modeling the number of even
 
 Show that the expected value of the Poisson distribution is simply *λ*.
 
-Tip: start by writing down the definition of the exponential.
+Tip: start by writing down the definition of the expected value:
 
 <img src="poisson_exp_value.png" width="15%" />
 
