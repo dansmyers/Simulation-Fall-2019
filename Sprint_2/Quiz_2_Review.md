@@ -81,11 +81,7 @@ Draw from the urn according to the following rules:
 
 Write down an expression for the expected number of draws needed to remove all four black balls from the urn.
 
-### Urns II
-
-
-
-### Urns III: Pólya Urn
+### Urns II: Pólya Urn
 
 Suppose an urn contains 9 black balls and 6 red balls. On each trial,
 I pick a ball at random from the urn, return it to the urn, and add
@@ -95,6 +91,18 @@ Suppose I repeat this procedure two times. What are the **expected**
 numbers of red and black balls in the urn?
 
 Tip: draw a tree of possible outcomes.
+
+### Urns III: Hoppe Urn
+
+Here's a variation of the Pólya Urn model. Start with 5 black and 5 red balls.
+
+- If you draw a black ball, put it back into the urn and add a new ball of completely new color that is not already in the urn.
+- If you draw a ball of any other color, put it back into the urn and add another ball of the same color.
+
+Suppose you make two draws from the urn. What is the probability that the urn contains balls of four different colors after
+the second draw?
+
+What is the expected number of colors in the urn after two draws?
 
 
 ### Yer a Wizard, Harry?
