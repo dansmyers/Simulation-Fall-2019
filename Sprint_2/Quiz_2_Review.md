@@ -12,9 +12,9 @@
 
 ### Family Planning
 
-Suppose a newly married couple has decided to keep having kids until they have one girl and then stop.
+Suppose a newly married couple has decided to keep having kids until they have one girl and then stop. What is the probability they end up with more than two kids?
 
-What is the probability they end up with more than two kids? You can assume the probability of having a girl is always .50, independent of any previous children.
+Assume the probability of having a girl is always .50, independent of any previous children.
 
 
 ### *Les Poissons*, *Les Poissons*! How I Love *Les Poissons*!
