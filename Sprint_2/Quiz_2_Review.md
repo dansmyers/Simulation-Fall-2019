@@ -38,7 +38,7 @@ Tip: start by writing down the definition of the expected value:
 
 <img src="poisson_exp_value.png" width="15%" />
 
-Notice that the first term of the summation is zero, so it's okay to start the sum with *k* = 1.
+Next, notice that the first term of the summation is zero, so modify it to start with *k* = 1. Remember that *e*<sup>-*λ*</sup> is a constant.
 
 Tip-tip: use the fact that 
 
