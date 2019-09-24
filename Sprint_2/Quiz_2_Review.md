@@ -28,7 +28,7 @@ Its distribution is discrete and has a single parameter, *λ* > 0, which is call
 the Poisson process, which is closely related to the Poisson distribution and has several nice properties that
 are useful in analyzing queueing systems.
 
-The basic application of the Poisson distribution is modeling the number of events that occur in a fixed time period if the events occur at constant rate *λ*. The probability of $k$ events in the period is given by the Poisson pmf:
+The basic application of the Poisson distribution is modeling the number of events that occur in a fixed time period if the events occur at constant rate *λ*. The Poisson pmf gives the probability of *k* events occurring in a period:
 
 <img src="poisson_pmf.png" width="15%" />
 
