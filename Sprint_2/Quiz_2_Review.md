@@ -42,7 +42,7 @@ Notice that the first term of the summation is zero, so it's okay to start the s
 
 Tip-tip: use the fact that 
 
-<img src="exp_def.png" width="15%" />
+<img src="exp_def.png" width="10%" />
 
 (This is one of the definitions of the exponential function.)
 
