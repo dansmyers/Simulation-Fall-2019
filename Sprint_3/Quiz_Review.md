@@ -41,7 +41,7 @@ Generate a full period from a linear congruential PRNG with parameters
 
 The Gumbel distribution is an odd distribution with an interesting application to modeling extreme events. It has one of the all-time best CDFs:
 
-F(x) = *e*<sup>-*e*<sup>-(*x* - *μ*) / *β*</sup></sup>
+*F(x)* = *e*<sup>-*e*<sup>-(*x* - *μ*) / *β*</sup></sup>
 
 *μ* is the mean and *β* is a scale parameter.
 
