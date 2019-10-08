@@ -14,9 +14,15 @@
 
 Consider a bulb that has an expected exponentially-distributed lifetime of 2000 hours. What is the probability that the bulb survives for between 1000 and 3000 hours?
 
+Answer: about .3834.
+
 ### Lumos, Pt. II
 
 Consider two bulbs that have mean exponentially-distributed lifetimes of 500 hours each. What is the probability that one bulb survives for more than 1000 hours and the second fails before reaching 100 hours?
+
+Tip: the bulbs are independent, so you need to multiple their individual probabilities to get the joint probability.
+
+Answer: about .02453.
 
 ### The Basics
 
@@ -46,7 +52,7 @@ Suppose each disk access takes an average of 10 ms. What is the maximum throughp
 
 Tip: the utilization at each disk must be less than 1.0.
 
-Tip-tip: remember that the visits to disk A are non-consecutive. Each customer passing through the larger system vists A twice, so λ<sub>A</sub> = 2λ<sub>system</sub>
+Tip-tip: remember that the visits to disk A are non-consecutive. Each customer passing through the larger system vists A twice, so λ<sub>A</sub> = 2λ<sub>system</sub>.
 
 Answer: Disk throughput must be less than 100 customers / sec. Total system throughput must be less than 50 customers / sec.
 
