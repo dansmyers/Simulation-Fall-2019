@@ -25,3 +25,4 @@ The Gumbel distribution is an odd distribution with an interesting application o
 
 F(x) = *e*<sup>-*e*<sup>-(*x* - *μ*) / *β*</sup></sup>
 
+*μ* is the mean and *β* is a scale parameter. Use the inverse CDF approach to derive an expression for generating Gumbel-distributed random variates.
