@@ -16,7 +16,7 @@ Consider a bulb that has an expected exponentially-distributed lifetime of 2000 
 
 ### Lumos, Pt. II
 
-
+Consider two bulbs that have mean exponentially-distributed lifetimes of 500 hours each. What is the probability that one bulb survives for more than 1000 hours and the second fails before reaching 100 hours?
 
 ### Lumos, Pt. III: Deluminator
 
@@ -25,7 +25,7 @@ after an average of only 25 hours.
 
 How many bulbs would expect to go through before finding one that survives for more than 100 hours?
 
-Tip: this is like a geometric trial where the probability of success can be calculated by the expoenntial distribution.
+Tip: this is like a geometric trial where the probability of success can be calculated using the expoenntial distribution.
 
 
 ### LCPRNG
