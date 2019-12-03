@@ -164,16 +164,3 @@ What is the residence time in an M/E<sub>*5*</sub>/1 queue average service time 
 
 ### Cruise Elroy
 
-In the grimdark Pac-Man universe, ghosts are bound to servitude in a maze filled with tiny balls and bouncing fruits.
-
-Every ghost arriving to the Netherworld must first be judged by Plinky, the fuschia ghost. Ghosts then go to one of the two Pac-mazes.
-
-Ghosts arrive to be judged at a rate of two per day. The following paramters apply:
-
-- Netherworld: s = .60 sec, Cs^2 = 1.0
-- Pac-World 1: s = .30 sec, Cs^2 = .45
-- Pac-World 2: s = .25 sec, Cs^2 = 1.2
-
-Haunting each world is random:
--fraction of light ghosts haunting Pac-World 1 = .25
--fraction of dark ghosts haunting Pac-World 2 = .75
