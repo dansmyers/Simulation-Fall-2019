@@ -16,6 +16,26 @@ No notes, books, or other aids are allowed during the exam. I will give you a fo
 
 ## Discrete Probability Distributions
 
+### The Monty Hall Problem
+
+Here's a classic probability problem. It's based on a game that was occasionally played on the old show *Let's Make a Deal* and named
+after its host, the irascible Monty Hall.
+
+Monty shows the player three closed doors. Behind one door is a fabulous prize: a Tesla Cybertruck. Behind the other two are goats. Monty 
+knows the true location of the prize.
+
+The player picks one door. Monty then opens one of the other two doors to reveal a goat.
+
+He then offers the player a choice: do you want to stay with the door you originally picked, or do you want to switch to the other door?
+The player chooses whether to stay or switch, and Monty opens the remaining two doors to reveal whether the player ended up with a goat 
+or a Cybertruck.
+
+Here's the question: should the player stay with the original door, switch to the unopened door, or does it matter? Why?
+
+Justify your answer in your own words.
+
+Hint: this is a famous problem, so there's a lot of information about it online. Try thinking about it a little bit, then doing some reading.
+
 ### Binomial vs. Geometric
 Describe a situation that would be best modeled with a binomial distribution and a situation that would be best modeled with a geometric
 distribution.
@@ -215,6 +235,13 @@ What is the residence time in an M/E<sub>*5*</sub>/1 queue with average service 
 Suppose 300 students start at Full Sail each year. 36% of those remain at the school for 2 years, 24% stay for only
 one year before leaving, and 50% take four years to graduate. What is the average number of active students in a typical year?
 
+### Process
+
+Describe a scenario that could be reasonable modeled by the Poisson process. 
+
+Described a second scenario that probably **shouldn't** be modeled with a Poisson process.
+
+Explain your reasoning in both cases.
 
 ### Markov Urn
 
