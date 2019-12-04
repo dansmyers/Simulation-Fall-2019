@@ -91,6 +91,17 @@ Trismegistus and David Blaine.
 Suppose Hermoine buys 10 Chocolate Frogs and opens them all at the same time. What's the probability that she gets exactly one
 of the cards she hasn't seen before?
 
+### Coefficient of Variation
+
+Consider a discrete random variable with the following pmf:
+
+- P(1) = .40
+- P(5) = .30
+- P(10) = .20
+- P(100) = .10
+
+Determine the coefficient of variation for this random variable.
+
 ### Survival of the Brightest
 
 A generic bulb with an expected exponentially-distributed lifetime of 200 hours. What is the probability of the bulb
@@ -130,7 +141,23 @@ Tip:
 
 ### PageRank
 
-Explain, in your own words, how the original PageRank algorithm ranks web pages.
+Explain, in your own words, how the original PageRank algorithm uses a random surfer model to rank pages.
+
+### Matrix
+
+Consider the Markov chain model described by the following transition matrix. Draw out the resulting Markov chain model, then solve the
+balance equations to determine the long-run fraction of time spent in each state.
+
+```
+                           to
+                 state 0        state 1      state 2
+
+       state 0     .3333         .3333        .3333
+from   
+       state 1     .25            .5           .25
+
+       state 2      1.0            .00          .00
+```
 
 
 ### Even Empresses Have to Wait in Line
@@ -142,7 +169,6 @@ One is for emperors and it has an average service time of 5 seconds. The second 
 The total arrival rate to the store is 3 customers per minute. If 60% of the clients are empresses, what is the average residence time
 of an arbitrary empress?
 
-
 ### Derive
 
 Use the tagged customer method to derive the expected residence time in an M/D/1 queue.
@@ -150,9 +176,8 @@ Use the tagged customer method to derive the expected residence time in an M/D/1
 ### LCFSPR
 
 Recall the last-come-first-serve-preemptive-resume strategy: a newly arriving customer gets to enter service immediately, preempting any
-customer that's currently in service.
-
-Customers are served in last-come-first-serve order, and a preempted customer always resumes its service at the place it left off.
+customer that's currently in service. Customers are served in last-come-first-serve order, and a preempted customer always resumes its 
+service at the place it left off.
 
 Derive the expected residence time in the LCFSPR queue with Poisson arrivals.
 
@@ -162,5 +187,64 @@ The Erlang-*k* distribution has squared coefficient of variation 1 / *k*.
 
 What is the residence time in an M/E<sub>*5*</sub>/1 queue average service time 10 seconds and 80% utilization?
 
-### Cruise Elroy
+### 
+
+### Markov Urn
+
+Imagine an urn that's controlled by a Markov process. Yes, this is weird, but work with me here.
+
+The urn can be in one of two states:
+
+- In state 0, the probability of drawing a black ball is .75 and the probability of drawing a red ball is .25
+- In state 1, the probability of drawing a black ball is .25 and the probability of drawing a red ball is .75
+
+The urn always starts in state 0. After each draw, the urn changes state according to the following transition matrix:
+
+```
+                           to
+                 state 0        state 1
+
+       state 0     .50           .50
+from   
+       state 1     .20           .80
+
+```
+
+What is the probability of getting a red ball on the second draw?
+
+
+### Markov Urns II
+
+Suppose you arrive at the Markovian urn in the previous problem at a random moment in time and draw a ball without knowing what state
+the urn is currently in. What's the probability you get a black ball?
+
+Hint:
+
+You need to find the long-run probability of being in each state.
+
+### Markov Urns III
+
+Suppose you arrive at the urn without knowing what state it's in and draw a red ball followed by a black ball. What is the most likely
+sequence of states that could have generated this outcome?
+
+This problem is an example of a **hidden Markov model**. Each state of the Markov chain has an associated probability distribution. The 
+model outputs a randomly generated value at each time step. The output values are random, so any sequence of states could potentially 
+generate any sequence of values.
+
+Given a series of values produced by the model, the goal is reconstruct the **most likely** sequence of states associated with the 
+observed data.
+
+Hint:
+
+There are four cases to consider:
+
+1. Starting in state 0, drawing red, then remaining in state 0 and drawing black
+2. Starting in state 1, drawing red, then remaining in state 1 and drawing black
+3. Starting in state 0, drawing red, then transitioning to state 1 and drawing black
+4. Starting in state 1, drawing red, then transitioning to state 0 and drawing black
+
+Consider the possibility of drawing a red ball in state 0 followed by a black ball in state 1. The probability of this sequence is:
+
+P(being in state 0 at a random moment) P(red ball | state 0) P(transition from state 0 to state 1) P(black ball | state 1)
+
 
