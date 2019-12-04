@@ -293,14 +293,16 @@ All of the queues can be modeled as M/G/1.
 
 Arrival rate of ghosts = 1 per second
 
-Rhadamanthus: *s* = .60 sec, *c*<sub>*s*</sub><sup>2</sup> = 1.0
-Haunting Pac-Man: *s* = .30 sec, *c*<sub>*s*</sub><sup>2</sup>  = .45
-Haunting Ms. Pac-Man: *s* = .25 sec, *c*<sub>*s*</sub><sup>2</sup>  = 1.2
+The following parameters apply to each queue:
+- Rhadamanthus: *s* = .60 sec, *c*<sub>*s*</sub><sup>2</sup> = 1.0
+- Haunting Pac-Man: *s* = .30 sec, *c*<sub>*s*</sub><sup>2</sup>  = .45
+- Haunting Ms. Pac-Man: *s* = .25 sec, *c*<sub>*s*</sub><sup>2</sup>  = 1.2
 
 Haunting assignments are random:
-
 - Fraction of ghosts haunting Pac-Man = .25
 - Fraction of ghosts haunting Ms. Pac-Man = .75
+
+Determine the overall expected time a ghost must spend in this system before exiting to enjoy the rest of the afterlife.
 
 ### Done
 
