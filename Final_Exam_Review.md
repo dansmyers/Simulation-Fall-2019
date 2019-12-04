@@ -245,6 +245,8 @@ There are four cases to consider:
 
 Consider the possibility of drawing a red ball in state 0 followed by a black ball in state 1. The probability of this sequence is:
 
-P(being in state 0 at a random moment) P(red ball | state 0) P(transition from state 0 to state 1) P(black ball | state 1)
+```
+P(start in state 0 at a random time) * P(red | state 0) * P(transition from state 0 to state 1) * P(black | state 1)
+```
 
 
