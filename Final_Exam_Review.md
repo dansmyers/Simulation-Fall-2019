@@ -83,13 +83,25 @@ P(defective) = 0.001
 
 What is P(defective | Robot says defective)?
 
-### Frog
+### Greatest Hit
+
+Good news! Harmoine got into Hogwarts after all!
+
+Now she's taking her first trip to school on the magical Hogwarts Express. The snack trolley has all kinds of amazing wizard treats, including the ever-popular Chocolate Frogs. Every Chocolate Frog comes with a collectable Famous Witch or Wizard card.
+
+Suppose that there are 30 total Famous Witch or Wizard cards in the set. Every frog is equally likely to contain any one of the cards.
+
+What is the expected number of Chocolate Frogs Harmoine would need to open to collect every Famous Witch and Wizard?
+
+Hint: if she buys her first frog on the Express, she's guaranteed to get a card she's never seen before. After that, there are 29 unseen cards remaining. Think of the card collecting process as a series of geometric trials.
+
+### More Frog
 
 Harmoine is still trying to collect all of her Chocolate Frog cards. She only needs two more out of the set of thirty: Hermes 
 Trismegistus and David Blaine.
 
-Suppose Hermoine buys 10 Chocolate Frogs and opens them all at the same time. What's the probability that she gets exactly one
-of the cards she hasn't seen before?
+Suppose Hermoine buys 10 Chocolate Frogs and opens them all at the same time. What's the probability that she gets **at least** one
+of the two cards she hasn't seen before?
 
 ### Coefficient of Variation
 
@@ -122,6 +134,15 @@ Santa wants 10,000 Rubik’s cubes made in a day. There are three available kind
 - A special hybrid elf-human, who will work for $300 and can make 1000 cubes in a day
 
 For each of the three options, how many elves would Santa need to hire to make 10,000 cubes in a day? If Santa only wants to hire one kind of elf, what is the most cost-effective elf that meets the workshop’s requirements?
+
+
+### Live to Serve
+
+There are two servers, A and B, in a system that receives arrivals at rate λ. Suppose that A receives 60% of the arrivals and B receives 40%, and that A runs at a utilization of 80% and B at a utilization of 60%.
+
+B can process one request in an average of 250 µs. Calculate the average service time at server A.
+
+Tip: Start by calculating the throughput at server B using the Utilization Law.
 
 
 ### Erlang Variates
@@ -181,13 +202,18 @@ service at the place it left off.
 
 Derive the expected residence time in the LCFSPR queue with Poisson arrivals.
 
+
 ### M/E<sub>*k*</sub>/1
 
 The Erlang-*k* distribution has squared coefficient of variation 1 / *k*.
 
-What is the residence time in an M/E<sub>*5*</sub>/1 queue average service time 10 seconds and 80% utilization?
+What is the residence time in an M/E<sub>*5*</sub>/1 queue with average service time 10 seconds and 80% utilization?
 
-### 
+### Cross-Town Rival
+
+Suppose 300 students start at Full Sail each year. 36% of those remain at the school for 2 years, 24% stay for only
+one year before leaving, and 50% take four years to graduate. What is the average number of active students in a typical year?
+
 
 ### Markov Urn
 
@@ -249,4 +275,39 @@ Consider the possibility of drawing a red ball in state 0 followed by a black ba
 P(start in state 0 at a random time) * P(red | state 0) * P(transition from state 0 to state 1) * P(black | state 1)
 ```
 
+### Ghost in the Shell
 
+Consider the following grimdark ghost processing facility. Sprits arrive at the facility and wait to be examined by Rhadamanthus, the
+judge of the dead, then proceed to haunt either Pac-Man or Ms. Pac-Man. After waiting for their turn and successfully haunting, ghosts 
+can exit the ghost processing facility and proceed to the rest of the afterlife.
+
+All of the queues can be modeled as M/G/1.
+
+```
+                             -----> Pac-Man
+                             |
+------> Rhadamanthus --------|
+                             |
+                             -----> Ms. Pac-Man
+```
+
+Arrival rate of ghosts = 1 per second
+
+Rhadamanthus: *s* = .60 sec, *c*<sub>*s*</sub><sup>2</sup> = 1.0
+Haunting Pac-Man: *s* = .30 sec, *c*<sub>*s*</sub><sup>2</sup>  = .45
+Haunting Ms. Pac-Man: *s* = .25 sec, *c*<sub>*s*</sub><sup>2</sup>  = 1.2
+
+Haunting assignments are random:
+
+- Fraction of ghosts haunting Pac-Man = .25
+- Fraction of ghosts haunting Ms. Pac-Man = .75
+
+### Done
+
+Imagine that you’ve (finally) finished this class, graduated, and gone on to your dream job with a prominent Internet company.
+
+One day, during a conversation about your company’s datacenter, your boss makes the following statement.
+
+*Our machines are too expensive to sit idle 25% of the time! I want to buy the smallest possible number of machines and run them all at 99.99% utilization!*
+
+Thinking back to your time in Simulation, how do you respond?
