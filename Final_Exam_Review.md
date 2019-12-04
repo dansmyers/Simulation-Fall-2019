@@ -44,8 +44,8 @@ In an ancient land, the Emperor would select a random ball out of a magical urn:
 
 The Urn contains 10 Red balls and 13 black balls when he begins.
 
-Suppose the Emperor uses the urn to decide whether to enter a battle, attacking if the SECOND ball he picks is a red ball and retreating 
-if the SECOND ball is black.
+Suppose the Emperor uses the urn to decide whether to enter a battle, attacking if the **SECOND** ball he picks is a red ball and 
+retreating if the **SECOND** ball is black.
 
 What is the probability that the Emperor attacks?
 
@@ -54,8 +54,9 @@ Hint:
 The changes to the urn happen in the following order:
 
 1. Draw one ball.
-2. Randomly remove two more balls.
-3. Randomly add three balls
+2. Randomly remove the first ball.
+3. Randomly remove the second ball.
+4. Randomly add three balls of the **same** randomly chosen color.
 
 ### He Sees You When You're Sleeping
 
