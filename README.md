@@ -84,7 +84,7 @@ from the Spring semester.
 - It gives me lots of options for how to adjust the schedule if we need to. The sprint-based structure means that we're never more than two weeks from a reset point, and I
 can adjust the content and deliverables for each sprint in response to changing conditions.
 
-Here are some common questions that have come up with previous classes:
+### FAQs
 
 - *How big are the teams?* In previous classes, most teams have been four or five students. For this semester, I think smaller is better, so most teams will be threes, with
 a few twos and fours.
